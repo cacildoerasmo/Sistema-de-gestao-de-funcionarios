@@ -1,0 +1,31 @@
+.text-left{
+    position: absolute;
+    left: 1200px;
+    top: 50px;
+}
+    body{
+ 
+       background-color: lightseagreen;
+       
+           }
+    .jumbotron{
+        background-color: lightseagreen;
+    }
+
+    li{
+     color:#000000;
+text-decoration:none;
+    }
+    li:hover{
+color:#ffffff;
+text-decoration:underline;
+    }
+    ul{
+        
+      display: block;
+    }
+    li:hover{ 
+background-color:#606060;
+
+    }
+

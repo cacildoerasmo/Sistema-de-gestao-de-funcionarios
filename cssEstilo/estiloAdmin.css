@@ -1,0 +1,101 @@
+
+body{
+    background-color: white;
+    width: 100%;
+  height: 100vh;
+}
+
+div#msg-sucesso{
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50, 205, 50,.3);
+    border: 1px solid rgb(34,139,34);
+    position: absolute;
+top:600px;
+left:450px;
+}
+
+div.msg-erro{
+width: 500px;
+position: absolute;
+top:600px;
+left:600px;
+margin: 10px auto;
+padding: 10px;
+background-color: rgba(250, 128, 114,.3);
+border: 1px solid rgb(165,42,42);
+}
+form{
+    position: absolute;
+    top: 3vh;
+    left: 600px;
+    background-color: #fff;
+    padding: 30px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-control-sm:focus{
+    border-color: lightseagreen;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+input#inputPassword4{
+    width: 150px;
+}
+
+input#senha2{
+width: 150px;
+}
+
+input#example-tel-input{
+    width: 200px;
+}
+
+input#inputEmail4{
+width: 250px;
+}
+
+input#name{
+    width: 300px;
+}
+
+h3{
+    color: lightseagreen;
+}
+
+hr{
+    background-color: lightseagreen;
+}
+
+label{
+    text-align: center;
+    font-family:sans-serif;
+	font-weight:normal;
+    font-size:12pt;
+}
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+a{
+    color: white;
+}
+.btn-info{
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px teal;
+    -moz-box-shadow: 1px 1px 2px teal;
+    -webkit-box-shadow: 1px 1px 2px teal;
+    background-color: while;
+    width: 135px;
+    height: 35px;
+    color: white;
+    position: relative;
+    left: 1px;
+    top: 20px; 
+}
